@@ -1,6 +1,6 @@
 # coding: utf-8 -*-
 import aiohttp
-from asyncio import sleep, ensure_future, get_event_loop
+from asyncio import sleep, ensure_future
 import  logging
 
 API_BASE = "https://api.alertover.com/v1/alert"

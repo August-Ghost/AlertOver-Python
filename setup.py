@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='alertover',
-    version='1.0.0',
+    version='1.0.1',
     packages=['alertover'],
     url='https://github.com/August-Ghost/alertover-python',
     license='MIT',
