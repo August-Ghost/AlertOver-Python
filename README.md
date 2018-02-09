@@ -9,7 +9,7 @@ Both synchronized and asynchronized support.
 Integration with python built-in logger.
 
 ## Install:
-pip install 
+pip install alertover
 
 ## Dependency:
 Python >= 3.5
