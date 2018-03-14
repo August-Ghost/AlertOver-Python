@@ -4,12 +4,14 @@ A python package for [AlertOver](https://www.alertover.com/).
 Push messages form your code to your devices in a minute.
 
 ## Features:
-Both synchronized and asynchronized support.
+Both synchronous and asynchronous support.
 <br/>
-Integration with python built-in logger.
+Easily integrated with python built-in logger.
 
 ## Install:
+```
 pip install alertover
+```
 
 ## Dependency:
 Python >= 3.5
@@ -44,7 +46,7 @@ with Session("your_source_id",
                          url="example.com")
 ```
 
-Integration with python built-in logging system:
+Integrated with python built-in logging system:
 ```python
 import logging
 from alertover import AlertOverHandler
@@ -58,7 +60,7 @@ logger.exception("From AlertOverHandler.",
     extra={"title": "AlertOverHandlerTest"})
 ```
 
-Integration with asynchronize framework:
+Integrated with asynchronize framework:
 ```python
 import alertover.async as aao
 ```
